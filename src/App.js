@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
 
 import styled from 'react-emotion'
 
@@ -23,8 +23,8 @@ class App extends Component {
         </p>
         <H1 scale={2}>Hello Fay</H1>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
