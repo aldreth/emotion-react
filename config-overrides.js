@@ -1,8 +1,5 @@
-const { injectBabelPlugin } = require('react-app-rewired');
+const rewireEmotion = require('react-app-rewire-emotion');
 
-rewireEmotion = (config) => {
-  return injectBabelPlugin('emotion/babel', config);
-};
-
-
-module.exports = rewireEmotion;
+module.exports = function override(config, env) {
+  return rewireEmotion(config, env, { inline: true });
+}

@@ -16,6 +16,7 @@
   "devDependencies": {
     "babel-plugin-emotion": "^7.3.2",
     "emotion": "^7.3.2",
+    "react-app-rewire-emotion": "^2.0.0",
     "react-app-rewired": "^1.2.7",
     "react-emotion": "^7.3.2"
   }
